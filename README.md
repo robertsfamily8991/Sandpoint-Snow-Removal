@@ -1,2 +1,2 @@
-# Sandpoint Snow Removal
+# Sandpoint Snow Removal LLC
 Commercial and Residential Snow Plow Service in Sandpoint, ID
