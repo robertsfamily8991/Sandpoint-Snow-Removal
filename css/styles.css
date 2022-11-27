@@ -137,3 +137,6 @@ body {
   .small-section-heading {
     font-size: 2rem;
   }
+
+  #home .container-fluid {
+    padding: 10% 15% 10%;
