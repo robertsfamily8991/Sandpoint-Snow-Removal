@@ -4,7 +4,6 @@ body {
   text-align: center;
 }
 
-
 /* Navbar */
 .nav-menu {
   padding: 5px 15%;
@@ -13,7 +12,6 @@ body {
 .center-menu {
   margin-left: auto;
 }
-
 
 /* Colored Sections */
 .colored-section {
@@ -26,7 +24,6 @@ body {
   color: #343a40;
 }
 
-
 /* Containers */
 #home .container-fluid {
   padding: 3% 15% 3%;
@@ -35,7 +32,6 @@ body {
 .container-fluid {
   padding: 7% 15% 5%;
 }
-
 
 /* Main Heading */
 .big-heading {
@@ -57,7 +53,6 @@ body {
   position: relative;
   width: 25%;
 }
-
 
 /* Services */
 #services {
@@ -96,7 +91,6 @@ body {
   line-height: 1.5;
 }
 
-
 /* Download Button */
 .download-button {
   margin: 5% 1% 5%;
@@ -112,10 +106,18 @@ body {
   color: #c74f50;
 }
 
+#contact a {
+  text-decoration: none;
+  color: #1a1d27
+}
+
+#contact a:hover {
+  text-decoration: none;
+  color: #c74f50
+}
 
 /* Media Setting */
 @media (max-width: 700px) {
-
   .main-pic {
     width: 60%;
   }
