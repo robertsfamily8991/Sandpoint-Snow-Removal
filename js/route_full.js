@@ -1,1 +1,1 @@
-alert("\nSANDPOINT SNOW REMOVAL LLC\n\nOUR ROUTES ARE FULL FOR THE SEASON\n\n________________________________\n\nWE RECOMMEND\n\n• YARD YETI: (208) 597-2307\n\n\n\n\n\nCall us to be added to our recommendations!\n(208) 597-4740");
+alert("\nSANDPOINT SNOW REMOVAL LLC\n\nOUR ROUTES ARE FULL FOR THE SEASON\n\n_______________________________________\n\nWE RECOMMENDED:\n\n• YARD YETI: (208) 597-2307\n\n");
