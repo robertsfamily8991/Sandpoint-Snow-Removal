@@ -61,7 +61,7 @@ body {
 
 .small-heading {
   color: white;
-  font-size: 1.1rem;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -77,12 +77,17 @@ body {
     width: 60%;
   }
 
+  .rightform {
+    width: 85%;
+    text-align: center;
+  }
+
   .big-heading {
     font-size: 3rem;
   }
 
   .small-heading {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   .big-section-heading {
@@ -96,3 +101,4 @@ body {
   #home .container-fluid {
     padding: 10% 15% 10%;
   }
+}
