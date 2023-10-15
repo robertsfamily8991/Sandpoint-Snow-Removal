@@ -1,0 +1,98 @@
+body {
+  font-family: 'Staatliches', cursive;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.col-lg-12 {
+  text-align: center;
+}
+
+/* Form Section */
+.leftform {
+  display: inline-block;
+  margin-bottom: .5rem;
+  width: 8.4rem;
+  text-align: left;
+}
+
+.rightform {
+  width: 330px;
+  text-align: center;
+}
+
+.bulletform {
+  width: 3rem;
+  margin-left: 1rem;
+}
+
+.headerform {
+  font-size: 1.75rem;
+  padding-bottom: 2rem;
+  text-decoration: underline;
+  padding-top: 2rem;
+}
+
+.gold {
+  color:#d1ac81;
+}
+
+/* Colored Sections */
+.colored-section {
+  background-color: #343a40;
+  color: #fff;
+}
+
+/* Containers */
+#home .container-fluid {
+  padding: 3% 15% 3%;
+}
+
+.container-fluid {
+  padding: 7% 15% 5%;
+}
+
+/* Main Heading */
+.big-heading {
+  color: #d1ac81;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.small-heading {
+  color: white;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.main-pic {
+  padding-bottom: 6%;
+  position: relative;
+  width: 25%;
+}
+
+/* Media Setting */
+@media (max-width: 700px) {
+  .main-pic {
+    width: 60%;
+  }
+
+  .big-heading {
+    font-size: 3rem;
+  }
+
+  .small-heading {
+    font-size: 2rem;
+  }
+
+  .big-section-heading {
+    font-size: 3rem;
+  }
+
+  .small-section-heading {
+    font-size: 2rem;
+  }
+
+  #home .container-fluid {
+    padding: 10% 15% 10%;
+  }
