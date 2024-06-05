@@ -4,6 +4,15 @@ body {
   text-align: left;
 }
 
+/* Navbar */
+.nav-menu {
+  padding: 5px 15%;
+}
+
+.center-menu {
+  margin-left: auto;
+}
+
 .col-lg-12 {
   text-align: center;
 }
