@@ -89,168 +89,144 @@
     <h1 class="big-heading">- Estimate -</h1>
     <p class="small-heading">Sandpoint Snow Removal</p>
 
-    <form action="thank-you" method="post" id="">
-      
-      <h3 class="headerform">Contact Information</h3>
+    <!-- Contact Information -->
+    <h3 class="headerform" id="contactInformation">Contact Information</h3>
+    <!-- <div class="container px-5 my-5"> -->
+    <div class="container">
+      <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+          <div class="form-floating mb-3">
+              <input class="fluid rightform" id="firstName" type="text" placeholder="First Name" data-sb-validations="required" />
+              <!-- <label for="firstName">First Name</label> -->
+              <div class="invalid-feedback" data-sb-feedback="firstName:required">First Name is required.</div>
+          </div>
+          <div class="form-floating mb-3">
+              <input class="fluid rightform" id="lastName" type="text" placeholder="Last name" data-sb-validations="required" />
+              <!-- <label for="lastName">Last name</label> -->
+              <div class="invalid-feedback" data-sb-feedback="lastName:required">Last name is required.</div>
+          </div>
+          <div class="form-floating mb-3">
+              <input class="fluid rightform" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
+              <!-- <label for="emailAddress">Email Address</label> -->
+              <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+              <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+          </div>
+          <div class="form-floating mb-3">
+              <input class="fluid rightform" id="phoneNumber" type="text" placeholder="Phone Number" data-sb-validations="required" />
+              <!-- <label for="phoneNumber">Phone Number</label> -->
+              <div class="invalid-feedback" data-sb-feedback="phoneNumber:required">Phone Number is required.</div>
+          </div>
 
-      <div class="field">
-        <!-- <label class="leftform" for="firstName">First Name : </label> -->
-        <input class="rightform" type="text" id="firstName" name="firstName" placeholder="first name" />
-        <small></small>
-      </div>
-      <p></p>
-      <div class="field">
-        <!-- <label class="leftform" for="lastName">Last Name : </label> -->
-        <input class="rightform" type="text" id="lastName" name="lastName" placeholder="last name" />
-        <small></small>
-      </div>
-      <p></p>
-      <div class="field">
-        <!-- <label class="leftform" for="email">Email : </label> -->
-        <input class="rightform" type="text" id="email" name="email" placeholder="email" />
-        <small></small>
-      </div>
-      <p></p>
-      <div class="field">
-        <!-- <label class="leftform" for="phone">Phone : </label> -->
-        <input class="rightform" type="text" id="phone" name="phone" placeholder="phone" />
-        <small></small>
-      </div>
-      
-      <p></p>
+          <!-- Service Information -->
+          <h3 class="headerform" id="serviceInformation">Service Information</h3>
+          <div class="form-floating mb-3">
+              <input class="fluid rightform" id="serviceAddress" type="text" placeholder="Service Address" data-sb-validations="required" />
+              <!-- <label for="serviceAddress">Service Address</label> -->
+              <div class="invalid-feedback" data-sb-feedback="serviceAddress:required">Service Address is required.</div>
+          </div>
+          <div class="mb-3">
+              <label class="form-label d-block gold">City</label>
+              <div class="form-check">
+                  <input class="bulletform" id="sandpoint" type="radio" name="serviceCity" data-sb-validations="required" />
+                  <label class="leftform" for="sandpoint">Sandpoint</label>
+              </div>
+              <div class="form-check">
+                  <input class="bulletform" id="ponderay" type="radio" name="serviceCity" data-sb-validations="required" />
+                  <label class="leftform" for="ponderay">Ponderay</label>
+              </div>
+              <div class="form-check">
+                  <input class="bulletform" id="dover" type="radio" name="serviceCity" data-sb-validations="required" />
+                  <label class="leftform" for="dover">Dover</label>
+              </div>
+              <div class="invalid-feedback" data-sb-feedback=":required">One option is required.</div>
+              <div class="invalid-feedback" data-sb-feedback="serviceCity:required">One option is required.</div>
 
-      <h3 class="headerform">Service Information</h3>
 
-      <div class="field">
-        <!-- <label class="leftform" for="serviceAddress">Address : </label> -->
-        <input class="rightform" type="text" id="serviceAddress" name="serviceAddress" placeholder="service address" />
-        <small></small>
-      </div>
-      
-      <p></p>
+          </div>
+          <div class="mb-3">
+              <label class="form-label d-block gold">Snowfall Trigger</label>
+              <div class="form-check">
+                  <input class="bulletform" id="03Inches" type="radio" name="snowfallTrigger" data-sb-validations="required" />
+                  <label class="leftform" for="03Inches">0-3 Inches</label>
+              </div>
+              <div class="form-check">
+                  <input class="bulletform" id="36Inches" type="radio" name="snowfallTrigger" data-sb-validations="required" />
+                  <label class="leftform" for="36Inches">3-6 Inches</label>
+              </div>
+              <div class="form-check">
+                  <input class="bulletform" id="69Inches" type="radio" name="snowfallTrigger" data-sb-validations="required" />
+                  <label class="leftform" for="69Inches">6-9 Inches</label>
+              </div>
+              <div class="form-check">
+                  <input class="bulletform" id="912Inches" type="radio" name="snowfallTrigger" data-sb-validations="required" />
+                  <label class="leftform" for="912Inches">9-12 Inches</label>
+              </div>
+              <div class="form-check">
+                  <input class="bulletform" id="12Inches" type="radio" name="snowfallTrigger" data-sb-validations="required" />
+                  <label class="leftform" for="12Inches">&gt;12 Inches</label>
+              </div>
+              <div class="invalid-feedback" data-sb-feedback="snowfallTrigger:required">One option is required.</div>
+          </div>
 
-      <div class="field">
-        <input class="bulletform" type="radio" id="sandpoint" name="city" value="Sandpoint">
-        <label class="leftform" for="sandpoint">Sandpoint</label>
-        <br>
-        <input class="bulletform" type="radio" id="ponderay" name="city" value="Ponderay">
-        <label class="leftform" for="ponderay">Ponderay</label>
-        <br>
-        <input class="bulletform" type="radio" id="dover" name="city" value="Dover">
-        <label class="leftform" for="dover">Dover</label>
-        <br>
-        <small></small>
-      </div>
-     
-      <p></p>
-
-      <!-- <h3>Snowfall Trigger</h3> -->
-
-      <div class="field">
-        <label class="leftform gold" for="snowfallTrigger">Snowfall Trigger</label>
-        <!-- <input type="text" id="snowfallTrigger" name="snowfallTrigger" placeholder="Enter the address you'd like serviced." /> -->
-        <small></small>
-      </div>
-      
-      <div class="field">
-
-        <input class="bulletform" type="radio" id="0-3" name="snowfallTrigger" value="0-3">
-        <label class="leftform" for="sandpoint">0-3 inches</label>
-        <br>
-        <input class="bulletform" type="radio" id="3-6" name="snowfallTrigger" value="3-6">
-        <label class="leftform" for="3-6">3-6 inches</label>
-        <br>
-        <input class="bulletform" type="radio" id="6-9" name="snowfallTrigger" value="6-9">
-        <label class="leftform" for="6-9">6-9 inches</label>
-        <br>        
-        <input class="bulletform" type="radio" id="9-12" name="snowfallTrigger" value="9-12">
-        <label class="leftform" for="9-12">9-12 inches</label>
-        <br>    
-        <input class="bulletform" type="radio" id=">12" name="snowfallTrigger" value=">12">
-        <label class="leftform" for=">12">> 12 inches</label>
-        <!-- <br> -->
-        <!-- <input class="bulletform" type="radio" id="zero" name="snowfallTrigger" value="zero">
-        <label class="leftform" for="zero">Zero Accumulation</label><br> -->
-        <small></small>
-      </div>
-     
-    <p></p>
-
-      <h3 class="headerform">Billing Information</h3>
-
-      <div class="field">
-        <!-- <label class="leftform" for="billingName">Name : </label> -->
-        <input class="rightform" type="text" id="billingName" name="billingName" placeholder="business" />
-        <small></small>
-      </div>
-      <p></p>
-      <div class="field">
-        <!-- <label class="leftform" for="billingAddress">Address : </label> -->
-        <input class="rightform" type="text" id="billingAddress" name="billingAddress" placeholder="billing address" />
-        <small></small>
-      </div>
-      <p></p>
-      <div class="field">
-        <!-- <label class="leftform" for="billingCity">City : </label> -->
-        <input class="rightform" type="text" id="billingCity" name="billingCity" placeholder="city" />
-        <small></small>
-      </div>
-      <p></p>
-      <div class="field">
-        <!-- <label class="leftform" for="billingState">State : </label> -->
-        <input class="rightform" type="text" id="billingState" name="billingState" placeholder="state" />
-        <small></small>
-      </div>
-      <p></p>
-      <div class="field">
-        <!-- <label class="leftform" for="billingZip">Zip : </label> -->
-        <input class="rightform" type="text" id="billingZip" name="billingZip" placeholder="zip" />
-        <small></small>
-      </div>
-      <p></p>
-      
-<!--       <button type="submit" onclick=""(){}>Submit</button> -->
-
-<!--        <button type="submit" name="button" data-toggle="tooltip" data-placement="top" title="Our route is full for the season. Please check back with us in the fall." onclick="
-              alert('\nSANDPOINT SNOW REMOVAL LLC\n\nOUR ROUTES ARE FULL FOR THE SEASON\n\n_______________________________________\n\nWE RECOMMENDED:\n\n• YARD YETI: (208) 597-2307\n• THE MOUNTAIN VIEW COMPANY: (208) 481-1861\n\n');
-              ">
-              <i class="<i class="fa-solid fa-snowflake" aria-hidden="true"></i> Submit
-       </button> -->
-
-      <a href="https://www.sandpointsnowremoval.com/thank-you">
-        <button type="" name="button" data-toggle="tooltip" data-placement="top" title="Our route is full for the season. Please check back with us in the fall.">
-              <i class="<i class="fa-solid fa-snowflake" aria-hidden="true"></i> Submit
-       </button>
-      </a>
-      
-    </form>
+          <!-- Billing Information -->
+          <h3 class="headerform" id="billingInformation">Billing Information</h3>
+          <div class="mb-3">
+              <div class="form-check form-switch">
+                  <input class="form-check-input" id="residentialService" type="checkbox" name="residentialService" />
+                  <label class="form-check-label" for="residentialService">Residential Service</label>
+              </div>
+          </div>
+          <div class="form-floating mb-3">
+              <input class="fluid rightform" id="businessName" type="text" placeholder="Business Name" data-sb-validations="required" />
+              <!-- <label for="businessName">Business Name</label> -->
+              <div class="invalid-feedback" data-sb-feedback="businessName:required">Business Name is required.</div>
+          </div>
+          <div class="form-floating mb-3">
+              <input class="fluid rightform" id="billingAddress" type="text" placeholder="Billing Address" data-sb-validations="required" />
+              <!-- <label for="billingAddress">Billing Address</label> -->
+              <div class="invalid-feedback" data-sb-feedback="billingAddress:required">Billing Address is required.</div>
+          </div>
+          <div class="form-floating mb-3">
+              <input class="fluid rightform" id="city" type="text" placeholder="City" data-sb-validations="required" />
+              <!-- <label for="city">City</label> -->
+              <div class="invalid-feedback" data-sb-feedback="city:required">City is required.</div>
+          </div>
+          <div class="form-floating mb-3">
+              <input class="fluid rightform" id="state" type="text" placeholder="State" data-sb-validations="required" />
+              <!-- <label for="state">State</label> -->
+              <div class="invalid-feedback" data-sb-feedback="state:required">State is required.</div>
+          </div>
+          <div class="form-floating mb-3">
+              <input class="fluid rightform" id="zip" type="text" placeholder="ZIP" data-sb-validations="required" />
+              <!-- <label for="zip">ZIP</label> -->
+              <div class="invalid-feedback" data-sb-feedback="zip:required">ZIP is required.</div>
+          </div>
+          <div class="d-none" id="submitSuccessMessage">
+              <div class="text-center mb-3">
+                  <div class="fw-bolder">Form submission successful!</div>
+                  <p>To activate this form, sign up at</p>
+                  <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+              </div>
+          </div>
+          <div class="d-none" id="submitErrorMessage">
+              <div class="text-center text-danger mb-3">Error sending message!</div>
+          </div>
+          <div class="d-grid">
+              <a href="https://www.sandpointsnowremoval.com/thank-you">
+              <button class="btn btn-outline-light btn-lg heading-button disabled" id="submitButton" type="submit">Submit</button>
+              </a>
+          </div>
+      </form>
+  </div>
+  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  
+  
 
     <p></p>
-    
-    <!-- <h3 class="headerform">Estimate Options</h3>
 
-    <button onclick = "
-    playGame('save');
-    ">Save</button>
-
-    <button onclick = "
-      playGame('print');
-    ">Print</button>
-
-    <button onclick = "
-    playGame('reset');
-    ">Reset</button> -->
-
-</div>
-</div>
-</div>
-</section>
-
-
-    <script>
-
-    </script>
-
+  </div>
+  </div>
+  </div>
+  </section>
 
   </body>
 </html>
