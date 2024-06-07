@@ -185,39 +185,53 @@
         <!-- Contact Form -->
         <div class="col-md-5">
           <h4><strong>Send A Message</strong></h4>
-          <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-            <div class="form-group">
-              <input id="name" type="text" class="form-control" name="name" value="" placeholder="Name" data-sb-validations="required">
-              <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
-            </div>
-            <div class="form-group">
-              <input id="email" type="email" class="form-control" name="email" value="" placeholder="E-mail" data-sb-validations="required">
-              <div class="invalid-feedback" data-sb-feedback="email:required">E-mail is required.</div>
-            </div>
-            <div class="form-group">
-              <input id="phone" type="tel" class="form-control" name="phone" value="" placeholder="Phone" data-sb-validations="required">
-              <div class="invalid-feedback" data-sb-feedback="phone:required">Phone is required.</div>
-            </div>
-            <div class="form-group">
-              <textarea id="message" class="form-control" name="message" rows="3" placeholder="Message" data-sb-validations="required"></textarea>
-              <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
-            </div>
+          <!-- <div class="container px-5 my-5"> -->
+            <div class="">
+            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <div class="form-floating mb-3">
+                    <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+                    <!-- <label for="name">Name</label> -->
+                    <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+                </div>
+                <div class="form-floating mb-3">
+                    <input class="form-control" id="eMail" type="email" placeholder="E-Mail" data-sb-validations="required,email" />
+                    <!-- <label for="eMail">E-Mail</label> -->
+                    <div class="invalid-feedback" data-sb-feedback="eMail:required">E-Mail is required.</div>
+                    <div class="invalid-feedback" data-sb-feedback="eMail:email">E-Mail Email is not valid.</div>
+                </div>
+                <div class="form-floating mb-3">
+                    <input class="form-control" id="phone" type="text" placeholder="Phone" data-sb-validations="required" />
+                    <!-- <label for="phone">Phone</label> -->
+                    <div class="invalid-feedback" data-sb-feedback="phone:required">Phone is required.</div>
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 5.5rem;" data-sb-validations="required"></textarea>
+                    <!-- <label for="message">Message</label> -->
+                    <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+                </div>
+                <div class="d-none" id="submitSuccessMessage">
+                    <div class="text-center mb-3">
+                        <div class="fw-bolder">Thank you for contacting us!</div>
+                        <p>We will contact you very soon with more information.</p>
+                        <!-- <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a> -->
+                    </div>
+                </div>
 
-            <!-- Success v Fail -->
-            <div class="d-none" id="submitSuccessMessage">Thank you for contacting us!</div>
-            <div class="d-none" id="submitErrorMessage">Form submission failed!</div>
-            
-            <!-- Contact Submit Button -->
-            <button class="btn btn-dark disabled" id="submitButton" type="submit" name="button" data-toggle="tooltip" data-placement="top" title="">
-            <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Submit
-            </button>
+                <!-- Success v Fail -->
+                <div class="d-none" id="submitErrorMessage">
+                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                </div>
 
-            <!-- <button class="btn btn-dark" type="submit" name="button" data-toggle="tooltip" data-placement="top" title="Our route is full for the season. Please check back with us in the fall." onclick="
-              alert('\nSANDPOINT SNOW REMOVAL LLC\n\nOUR ROUTES ARE FULL FOR THE SEASON\n\n_______________________________________\n\nWE RECOMMENDED:\n\n• YARD YETI: (208) 597-2307\n• THE MOUNTAIN VIEW COMPANY: (208) 481-1861\n\n');
-              ">
-              <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Submit
-            </button> -->
-          </form>
+                <!-- Submit Button -->
+                <div class="d-grid">
+                    <button class="btn btn-dark disabled" id="submitButton" type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Submit</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Form Script -->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        
         </div>
       </div>
 
@@ -235,10 +249,6 @@
       <p><br></p>
     </div>
   </footer>
-
-  <!-- Form Script -->
-  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-
 </body>
 
 </html>
