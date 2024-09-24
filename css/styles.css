@@ -116,6 +116,20 @@ body {
   color: #c74f50
 }
 
+.modal-title {
+  margin-bottom: 0;
+  line-height: 1.5;
+  color: black;
+  font-size: 2rem;
+}
+
+.modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 1rem;
+  color: black;
+}
+
 /* Media Setting */
 @media (max-width: 700px) {
   .main-pic {
