@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-W2FN3RLM');</script>
+  <!-- End Google Tag Manager -->
+  
+  <!--  TITLE  -->
+  <title>Sandpoint Snow Removal LLC</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+
+  <!-- AUTHOR -->
+  <meta name="author" content="John Roberts : Full Stack John">
+
+  <!-- Required Meta Tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Commercial & Residential Snow Plow Service | Sandpoint, ID">
+  <meta name="keywords" content="plow truck, snow plow, snow removal, commercial snow removal, residential snow removal, sandpoint id, dover id, ponderay id">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/7c8ccb2f6a.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2FN3RLM"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-menu">
+
+    <!-- Logo -->
+    <!-- <a class="navbar-brand" href="tel:+12085974740">(208) 597-4740</a> -->
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto center-menu">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Snow Plow Service</a>
+        </li>
+<!--         <li class="nav-item">
+          <a class="nav-link" href="https://www.sandpointsnowremoval.com/snow-quote" target="_blank">Estimate</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="#schedule">Get Quote</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.sandpointsmallengine.com" target="_blank">Small Engine Repair</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Heading -->
+  <section class="colored-section" id="home">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <img class="main-pic" src="images/sandpoint-snow-removal-logo.png" alt="Sandpoint Snow Removal LLC">
+        </div>
+        <div class="col-lg-12">
+          <h1 class="big-heading">Sandpoint Snow Removal</h1>
+          <h2 class="small-heading">Commercial & Residential<br />Snow Plow Service</h2>
+
+          <!-- Get Estimate Button -->
+          <a href="#schedule" target="">
+            <button type="button" class="btn btn-outline-light btn-lg heading-button" data-toggle="tooltip" data-placement="top" title="Get a snow plow quote.">
+            Get Quote
+          </button>
+          </a>
+
+          
+          <!-- Get Estimate Button -->
+<!--             <a href="https://www.sandpointsnowremoval.com/snow-quote" target="_blank">
+            <button type="button" class="btn btn-outline-light btn-lg heading-button" data-toggle="tooltip" data-placement="top" title="Get a snow plow quote.">
+            Get Quote
+          </button>
+          </a> -->
+
+          <!-- Make Payment Button -->
+          <a href="https://square.link/u/etXAMs1K?src=sheet" target="blank">
+            <button type="button" class="btn btn-success btn-lg heading-button" data-toggle="tooltip" data-placement="top" title="Pay for snow plow service.">
+              Make Payment
+            </button>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="white-section" id="services">
+    <div class="container-fluid">
+      <div class="row">
+
+        <!-- Service 01 -->
+        <div class="services-box col-lg-4 col-md-6">
+          <h3 class="services-title"><i class="icon fa-solid fa-snowplow fa-4x"></i>Equipment</h3>
+          <p>Our 4x4 truck and snow plow are perfect for all winter weather conditions. Sometimes, we'll use a skid steer to move snow or stack it higher.</p>
+        </div>
+
+        <!-- Service 02 -->
+        <div class="services-box col-lg-4 col-md-6">
+          <h3 class="services-title"><i class="icon fa-solid fa-map-location-dot fa-4x"></i>Route</h3>
+          <p>We service between Sandpoint, Ponderay and Dover. Recurring clientele will be serviced first, followed by emergency and single-service calls.</p>
+        </div>
+
+        <!-- Service 03 -->
+        <div class="services-box col-lg-4">
+          <h3 class="services-title"><i class="icon fa-solid fa-snowflake fa-4x"></i>Service</h3>
+          <p>Get an estimte and fill out our Service Agreement to receive snow plow service. You'll get a fixed rate and we'll send you an invoice when we're done.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="colored-section" id="schedule">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="big-section-heading">Schedule Service</h2>
+            <p class="small-section-heading">Please complete the first page of our Service Agreement to receive a snow removal quote</p>
+
+          <!-- View Service Agreement Button -->
+          <a href="https://www.sandpointsnowremoval.com/images/SANDPOINT%20SNOW%20REMOVAL%20-%20Service%20Agreement.pdf" target="blank">
+            <button type="button" class="btn btn-outline-light btn-lg download-button" data-toggle="tooltip" data-placement="top" title="Sandpoint Snow Removal - Service Agreement">
+              Service Agreement
+            </button>
+          </a>
+
+          <!-- Modal Button -->
+<!--           <button type="button" class="btn btn-outline-light btn-lg download-button" data-toggle="modal" data-target="#exampleModal">
+            Service Agreement
+          </button> -->
+
+          <!-- Modal Popup -->
+<!--           <div class="modal fade modaltext" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title modaltitle" id="exampleModalLabel">Service Agreement</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    
+                    <strong>PAYMENT</strong>
+                    <br>Payment will be due at the time of service. Failure to pay the invoice within 10-days will relieve Sandpoint Snow Removal from further liability of snow removal services.
+                    <br><br>
+                    <strong>SERVICE</strong>
+                    <br>Snow removal service will begin as specified by you, the client, regardless of the time of day or night or or the day of the week, unless otherwise agreed upon. Pre-paid and recurring clientele will be serviced first, followed by emergency and single-service calls.
+                    <br><br>Sandpoint Snow Removal will provide its own employees, equipment and supplies necessary to complete the services described.
+                    <br><br>Sandpoint Snow Removal will not service within 3-feet of any vehicle, building or other stationary object. Sandpoint Snow Removal is not liable for any damage that may occur to the pavement, gravel, sod or other surfaces contracted for service, including but not limited to road-heaving, potholes, erosion or any other damage caused by natural winter conditions.
+                    <br><br>Please note that icy or slippery conditions may exist even after work is completed. Sandpoint Snow Removal is not responsible for any type of injury, death, loss or damage of or to persons or property by reasons of non-performance of our obligations.
+                    <br><br><a href="tel:+12085974740">
+            <button type="button" class="btn btn-success btn-lg heading-button" data-toggle="tooltip" data-placement="top" title="Call Us.">
+              (208) 597-4740
+            </button> 
+
+                  </p>
+                </div>
+                <div class="modal-footer">
+ -->
+<!--                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button> -->
+                  
+<!--                 </div>
+              </div>
+            </div>
+          </div> -->
+
+
+          <!-- Call Button -->
+          <a href="tel:+12085974740">
+            <button type="button" class="btn btn-success btn-lg heading-button" data-toggle="tooltip" data-placement="top" title="Call Sandpoint Snow Removal LLC">
+              (208) 597-4740
+            </button>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="white-section" id="contact">
+    <div class="container-fluid">
+
+      <!-- Google Map -->
+      <div class="well well-sm">
+      </div>
+      <div class="row">
+        <div class="col-md-7">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d154613.80126048037!2d-116.54849894585713!3d48.23707454888616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1668962762745!5m2!1sen!2sus" width="100%"
+            height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-md-5">
+          <h4><strong>Send A Message</strong></h4>
+          <!-- <div class="container px-5 my-5"> -->
+            <div class="">
+            <form id="contactForm" data-sb-form-api-token="ce069cf9-3844-410d-bf22-b36df08b7140">
+                <div class="form-floating mb-3">
+                    <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+                    <!-- <label for="name">Name</label> -->
+                    <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+                </div>
+                <div class="form-floating mb-3">
+                    <input class="form-control" id="eMail" type="email" placeholder="E-Mail" data-sb-validations="required,email" />
+                    <!-- <label for="eMail">E-Mail</label> -->
+                    <div class="invalid-feedback" data-sb-feedback="eMail:required">E-Mail is required.</div>
+                    <div class="invalid-feedback" data-sb-feedback="eMail:email">E-Mail Email is not valid.</div>
+                </div>
+                <div class="form-floating mb-3">
+                    <input class="form-control" id="phone" type="text" placeholder="Phone" data-sb-validations="required" />
+                    <!-- <label for="phone">Phone</label> -->
+                    <div class="invalid-feedback" data-sb-feedback="phone:required">Phone is required.</div>
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 5.5rem;" data-sb-validations="required"></textarea>
+                    <!-- <label for="message">Message</label> -->
+                    <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+                </div>
+                <div class="d-none" id="submitSuccessMessage">
+                    <div class="text-center mb-3">
+                        <div class="fw-bolder">Thank you for contacting us!</div>
+                        <p>We will contact you very soon with more information.</p>
+                        <!-- <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a> -->
+                    </div>
+                </div>
+
+                <!-- Success v Fail -->
+                <div class="d-none" id="submitErrorMessage">
+                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="d-grid">
+                    <button class="btn btn-dark disabled" id="submitButton" type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Submit</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Form Script -->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        
+        </div>
+      </div>
+
+      <!-- Contact Links -->
+      <br />
+      <a href="tel:+12085974740"><i class="icon-footer fa-solid fa-phone"></i></a>
+      <a href="https://www.facebook.com/SandpointSnowRemoval/" target="blank"><i class="icon-footer fa-brands fa-facebook"></i></a>
+      <a href="https://g.page/sandpoint-snow-removal/" target="blank"><i class="icon-footer fa-brands fa-google"></i></a>
+      <a href="https://www.yelp.com/biz/sandpoint-snow-removal-sandpoint-2?utm_campaign=www_business_share_popup&utm_medium=copy_link&utm_source=(direct)" target="blank"><i class="icon-footer fa-brands fa-yelp"></i></a>
+      <a href="mailto:service@sandpointsnowremoval.com?subject=Website Contact"><i class="icon-footer fa-solid fa-envelope"></i></a>
+      <p>Copyright &copy; | Sandpoint Snow Removal LLC | 2024</p>
+      <h1></h1>
+      <div class=""><a href="https://www.fullstackjohn.com" target="_blank" rel="noopener noreferrer">Need a website?</a></div>
+      <p><br></p>
+    </div>
+  </footer>
+</body>
+
+</html>
+
+<!-- Custom JavaScript -->
+<!-- <script src="js/route_full.js"></script> -->
