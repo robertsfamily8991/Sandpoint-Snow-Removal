@@ -240,41 +240,21 @@
           <h4><strong>Send A Message</strong></h4>
           <!-- <div class="container px-5 my-5"> -->
             <div class="">
-            <form id="contactForm" data-sb-form-api-token="ce069cf9-3844-410d-bf22-b36df08b7140">
-                <div class="form-floating mb-3">
-                    <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
-                    <!-- <label for="name">Name</label> -->
-                    <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
-                </div>
-                <div class="form-floating mb-3">
-                    <input class="form-control" id="eMail" type="email" placeholder="E-Mail" data-sb-validations="required,email" />
-                    <!-- <label for="eMail">E-Mail</label> -->
-                    <div class="invalid-feedback" data-sb-feedback="eMail:required">E-Mail is required.</div>
-                    <div class="invalid-feedback" data-sb-feedback="eMail:email">E-Mail Email is not valid.</div>
-                </div>
-                <div class="form-floating mb-3">
-                    <input class="form-control" id="phone" type="text" placeholder="Phone" data-sb-validations="required" />
-                    <!-- <label for="phone">Phone</label> -->
-                    <div class="invalid-feedback" data-sb-feedback="phone:required">Phone is required.</div>
-                </div>
-                <div class="form-floating mb-3">
-                    <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 5.5rem;" data-sb-validations="required"></textarea>
-                    <!-- <label for="message">Message</label> -->
-                    <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
-                </div>
-                <div class="d-none" id="submitSuccessMessage">
-                    <div class="text-center mb-3">
-                        <div class="fw-bolder">Thank you for contacting us!</div>
-                        <p>We will contact you very soon with more information.</p>
-                        <!-- <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a> -->
-                    </div>
-                </div>
-
-                <!-- Success v Fail -->
-                <div class="d-none" id="submitErrorMessage">
-                    <div class="text-center text-danger mb-3">Error sending message!</div>
-                </div>
-
+                    <div class="col-md-5">
+          <h4><strong>Send A Message</strong></h4>
+          <!-- <div class="container px-5 my-5"> -->
+            <div class="">
+            
+                <form id="contactForm" method="post" action="https://script.google.com/macros/s/AKfycbxPlqQJ_bm9kSt2iY-3XSb5QBnazRVo0mUwUV4oD0xikUTGj90fHN71L8bkiI97uEAMzg/exec" name="contact-form">
+                <h4>Contact Us</h4>
+                <input type="text" name="your-name" placeholder="Name">
+                <input type="text" name="your-number" placeholder="Number">
+                <input type="email" name="your-email" placeholder="Email">
+                <textarea name="message" rows="7" placeholder="Your Message">
+                </textarea>
+                <input type="submit" value="Submit" id="submit">
+<!--           		</form> -->
+              
                 <!-- Submit Button -->
                 <div class="d-grid">
                     <button class="btn btn-dark disabled" id="submitButton" type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Submit</button>
